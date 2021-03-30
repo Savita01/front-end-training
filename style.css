@@ -1,22 +1,32 @@
-.par_color{
-	color: red;
+.box{
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 5px;
 }
-#bgcolor{
-	background-color: #ffff99;
+p:nth-of-type(2){
+    color:red;
 }
-.firstbox{
-	margin:10px 5px;
-	border:5px solid #008000;
+.container>div:first-child{
+    background-color: green;
 }
-.secondbox{
-	margin:10px 5px;
-	border:1rem solid #008000;
+.container>div:nth-of-type(3){
+    background-color: green;
 }
-#thirdbox {
-	margin:10px 5px;
-	border:1em solid #008000;
+div.container::before{
+    content:" I am created by CSS. I got padding 10px, background color orange and border 2px solid green";
+    padding: 10px;
+    background-color: orange;
+    border: 2px solid green;
+    display: block;
+    
 }
-#thirdbox p{
-	margin:10px 5px;
-	border:1px solid #008000;
+div.container::after{
+    content:" I am created by CSS. I got padding 10px, background color orange and border 2px solid green";
+    padding: 10px;
+    background-color: orange;
+    border: 2px solid green; 
+    display: block;
+}
+.container>div:nth-of-type(2):hover{
+    background-color: yellow;
 }
