@@ -1,0 +1,50 @@
+#container{
+    padding:0em 4em 2em;
+
+}
+.header{
+    margin:4rem 0rem; 
+}
+h1{
+    display: inline;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+#logo{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    float: right;
+    display: inline-block;
+    top: -10px;
+}
+.box{
+    background-color: #f1f1f1;
+    padding: 10px 20px 40px;
+    display: inline-block;
+    
+}
+.pause{
+    float:left;
+    display: inline;
+}
+p span{
+    padding: 20px 30px;
+    margin:10px 20px;
+    text-align: justify;
+
+}
+#redbox{
+    background-color:#bf190d;
+    padding:30px;
+}
+.icons{
+    height: 200px;
+    width: 240px;
+    margin:20px;
+}
+#colorimg{
+    min-width: 1199px;
+    height:600px;
+}
